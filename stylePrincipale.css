@@ -1,0 +1,78 @@
+body{
+  background-image:url(image/image6.png);
+  background-size: 1500px;
+}
+
+/*AJOUT DE LA BARRE DE NAVIGATION*/
+
+
+
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E9EBED;
+}
+
+.gauche {
+	float: left; /*JE METS CERTAINS  BLOCKS A GAUCHE*/
+}
+.droite{
+	float: right;  /*JE METS CERTAINS  BLOCKS A DROITE*/
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+	color: green;
+}
+
+
+.boutonInscription
+{
+  color:white;
+  padding: 0em 15px;
+  font-size: 15px;
+  font-family:cursive;
+  cursor: pointer;
+  text-align: center;
+  background-color: #39B900;
+  border: none;
+  border-radius: 15px;
+
+}
+.boutonInscription:hover {background-color: #309A01;}
+
+.boutonConnexion{
+color:#39B900;
+  padding: 0em 15px;
+  font-size: 12.4px;
+  font-family:cursive;
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+  border-color: green;
+  border-radius: 15px;
+}
+.boutonConnexion:hover {color: #309A01;	}
+
+
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+
+
+
